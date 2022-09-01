@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favourite",
+						"type": "uint256"
+					}
+				],
+				"name": "passFavourite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "SimpleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xb576cfc07416989007f6d9bdeb10dfa417d73160f66c06ed9aa41c21a908161d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5e2ac025408694138b9c44b909dc56754a77b93f1af63d8b675f801235dedd3",
+				"dweb:/ipfs/QmRg2MGSPtxQk14veigfZc5DnhfxaGqVSwPHXwYWG3MfHt"
+			]
+		}
+	},
+	"version": 1
+}
