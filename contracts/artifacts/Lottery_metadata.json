@@ -69,6 +69,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "selectWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -101,11 +108,11 @@
 	},
 	"sources": {
 		"contracts/Lottery.sol": {
-			"keccak256": "0xff204fdb741734c19bcd861bef69ff9e44084deb6f837b5539ab221ef7b2f0ec",
+			"keccak256": "0x25738176962d514b47330d62879fab66b9419f7efd752c95c8b456901a5b6b8d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://924c802e6fbd7e3d789fe299b499df44203fec11b329017d4041d52ff5984482",
-				"dweb:/ipfs/QmReXJpE5Seudqv2BoV4Umi3FmnrmYCmoZiv1pBUmviKPF"
+				"bzz-raw://15a0e5ad8610d7a5941f8615158ad310c296d77b4a0e6e5bf075a5ebae1397bc",
+				"dweb:/ipfs/QmbZnZuf7dYv7mf4sCZoXz5tmKeUDhmnZd4eqsFnJu416p"
 			]
 		}
 	},
