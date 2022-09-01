@@ -36,5 +36,6 @@ contract Lottery
         uint index = r % participants.length;
         winner = participants[index];
         winner.transfer(getBalance());
+        participants = new address payable[](0);  //setting participants to new for next round
     }
 }
